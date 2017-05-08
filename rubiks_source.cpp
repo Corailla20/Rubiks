@@ -9,11 +9,9 @@
 #include <vtkMinimalStandardRandomSequence.h>
 
 #include "rubiks_source.h"
-#include "build\Structure.h"
 
 int main()
 {
-	Structure structure = Structure();
 	vtkSmartPointer<vtkActor> tableau[12][9];
 	// Cone source
 	//vtkConeSource *coneSource = vtkConeSource::New();
